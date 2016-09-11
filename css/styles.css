@@ -106,6 +106,21 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #8c2e05; 
 }
 
+.btn-info {
+  color: #ecddba;
+  background-color: #8c2e05;
+  border-color: #8c2e05;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active
+ {
+  color: #ecddba;
+  background-color: #4d0e16;
+  border-color: #4d0e16;
+}
+
 .btn-default {
   background-color: #8c2e05;
   border-color: #8c2e05;
@@ -126,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Jumbotron */
 .jumbotron {
   /*background-image: url(../images/anabelle_laptop_sketch.jpg);*/
-  background-image: url(../images/puppy_1.jpg);
+  background-image: url(../images/pyppy_bella.jpg);
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .thumbnail img {
   transition: all 0.3s ease 0s;
   width: 100%;
+  overflow: hidden;
   box-shadow: 0 0 10px 10px #d3d3d3;
 }
 
@@ -175,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-caption {
   text-shadow: 0.1em 0.1em 0.1em black;
 }
+
 /* End Thumbnail customisation with effects */
 
 /* Navbar colours:;
@@ -189,11 +206,11 @@ BTN Primary: #4d0e16;
 BTN Primary Hover: #1E2A36;
 BTN Primary Hover Border: #161F29;
 
-BTN Success: #d17a0d;
-BTN Success Hover: #13987E;
-BTN Success Hover Border: #11866F;
+BTN Success: #ecddba;
+BTN Success Hover: #8c2e05;
+BTN Success Hover Border: #8c2e05;
 
 /* contact form button:; 
-BTN Default: #95A5A6;
-BTN Default Hover: #7F9293;
+BTN Default: #8c2e05;
+BTN Default Hover: #8c2e05;
 BTN Default Hover Border: #74898A;
