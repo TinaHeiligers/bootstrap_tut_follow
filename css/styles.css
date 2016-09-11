@@ -179,6 +179,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2px;
 }
 
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: #ecddba;
+}
+
+a:hover, a:focus {
+    color: #ecddba;
+    text-decoration: underline;
+}
+
 .bg-grey {
   background-color: #f9f9f9;
 }
