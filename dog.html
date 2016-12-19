@@ -9,14 +9,13 @@
     <title>Pups And Poker</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href="css/styles.css" rel="stylesheet">
 
   </head>
   <body>
-    <!-- START Fixed navbar -->
+  <!--START /.nav-collapse-->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -26,73 +25,106 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand active" href="#">Pups And Poker</a>
+          <a class="navbar-brand" href="index.html">Pups And Poker</a>
         </div><!--END navbar-header-->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-header">Games</li>
-                <li><a href="#">Canine</a></li>
-                <li><a href="#">Human</a></li>
+                <li class="dropdown-header">Resources</li>
+                <li><a href="#">Resource 1</a></li>
+                <li><a href="#">Resource 2</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Toys</li>
-                <li><a href="#">Canine</a></li>
-                <li><a href="#">Human</a></li>
+                <li class="dropdown-header">Extras</li>
+                <li><a href="#">Extra 1</a></li>
+                <li><a href="#">Extra 1</a></li>
               </ul>
             </li>
             <li><!--NB for modal contact form-->
               <a href="#contact" data-toggle="modal">Contact</a>
             </li>
           </ul>
+          
         </div><!--END /.nav-collapse-->
       </div><!--END container-->
     </div><!--END navbar navbar-default navbar-fixed-top-->
     <!-- END Fixed navbar -->
   
-    <!--START Jumbotron-->
-    <div class="container">
-      <div class="jumbotron text-left">
-        <h1>Pups And Poker</h1>
-        <p>The Games We Play</p>
-        <a href="#" class="btn btn-primary">Puppy Things</a>
-        <a href="#" class="btn btn-success">Poker Things</a>
+  <!--START Tom Main-->
+  <div class="container">
+      <div class="page-header">
+        <h1>Dogs - Single Page Details</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="thumbnail">
+            <img src="images/chaterine_1.jpg" alt="Catherine">
+            <div class="caption text-center">
+              <a href="#" class="btn btn-primary" role="button">Preview</a>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, quam ornare eu, maecenas primis ut, proin amet eget quisque tortor ligula. Eu quisque, amet consectetuer arcu non adipiscing blandit, ridiculus nec cras. Eu aenean donec erat gravida ipsum a, ut gravida aliquam eget sed autem, sollicitudin luctus nonummy, vestibulum erat neque tincidunt nullam et. Maecenas praesent orci id adipiscing nec. In luctus fermentum, nisl dui occaecat nonummy, inceptos scelerisque est amet faucibus ullamcorper, neque nullam adipiscing etiam vivamus, ac in wisi.</p>
+          <h3>Integer natoque</h3>
+          <li>Pretium metus nostra</li>
+          <li>Sem porta orci</li>
+          <li>Auctor est</li>
+          <li>Habitasse mauris bibendum</li>
+          <li>Vestibulum elit</li>
+          <li>Quis et ut</li>
+          <li>Id malesuada lacinia</li>
+        </div>
+        , <!-- , . In a, tincidunt quam eros, accumsan pede orci. Pellentesque elementum, laoreet lorem, pharetra mauris. -->
+        <div class="col-sm-4">
+          <div class="thumbnail bg-grey text-center">
+            <h2>03</h2>
+            <p>Eu vestibulum</p>
+            <a href="#" class="btn btn-success" role="button">Button</a>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Quisque Arcu</h3>
+            </div>
+            <div class="panel-body bg-grey text-center">
+              <img src="/images/paw_print.jpg" alt="Puppy paw print" class="img-circle">
+              <h4>Ultrices Sapien</h4>
+            </div>  
+          </div>
+          <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Ut turpis</h3>
+          </div>
+          <table class="table table-bordered table-striped">
+            <tbody>
+              <tr>
+                <td>Item</td>
+                <td>Description</td>
+              </tr>
+              <tr>
+                <td>Tincidunt</td>
+                <td>Pharetra</td>
+              </tr> 
+              <tr>
+                <td>Accumsan</td>
+                <td>Pede</td>
+              </tr>
+              <tr>
+                <td>Pellentesque</td>
+                <td>Tincidunt, quam eros, accumsan pede orci</td>
+              </tr>
+              <tr>
+                <td>Release Date</td>
+                <td>Sep 9, 2016</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
       </div>
     </div>
-    <!--END Carousel Propper-->
-    <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="puppy.html" class="thumbnail home-thumb">
-          <img src="images/chatherine_2_stretched.jpg" alt="Catherine">
-        </a>
-        <h3>For Puppies</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="puppy.html" class="btn btn-info">View</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="bitch.html" class="thumbnail home-thumb">
-          <img src="images/bella_1.jpg" alt="Bella">
-        </a>
-        <h3>For Bitches</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="bitch.html" class="btn btn-info">View</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="dog.html" class="thumbnail home-thumb">
-          <img src="images/chaterine_1.jpg" alt="Catherine">
-        </a>
-        <h3>For Dogs</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="dog.html" class="btn btn-info">View</a>
-      </div>
-    </div>
-  </div>
-  
-  <!--END media rows-->
+  <!--END Tom Main-->
 
     <!--START footer-->
     <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">

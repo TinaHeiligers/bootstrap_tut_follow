@@ -17,52 +17,90 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Customizing styling for navbar */
 .navbar-default {
-  background-color: #2C3E50;
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: #4d0e16;
+  border-color: #ecddba;
+  color: #ecddba;
 }
 
 .navbar-default .navbar-brand {
-  color: #FFFFFF;
+  color: #ecddba;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #18BC9C;
+  color: #d17a0d;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #FFFFFF;
+  color: #ecddba;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #FFFFFF;
-  background-color: #1A242F; 
+  color: #ecddba;
+  background-color: #8c2e05; 
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #18BC9C;
+  color: #d17a0d;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #1A242F;
-  color: #FFFFFF;
+  background-color: #8c2e05;
+  color: #ecddba;
 }
 
+.navbar-default .navbar-toggle {
+  color: #ecddba;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecddba;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #8c2e05;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: #8c2e05; 
+}
+.navbar-default .navbar-text {
+  color: #ecddba;
+}
+
+div.navbar-collapse.collapse.in, 
+div.navbar-collapse.collapse {
+  border-top: 0px;
+}
+
+.dropdown-menu {
+  background-color: #8c2e05;
+  border: 1px solid #8c2e05;
+  min-width: 111.812px;
+}
+
+.dropdown-menu>li>a {
+    color: #ecddba;
+    text-align: center;
+}
+
+.dropdown-menu .divider {
+    background-color: #8c2e05;
+}
 /* End navbar Customisation */
 
 /* Start Button Customisation */
 .btn-primary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
-  color: #FFFFFF;
+  background-color: #4d0e16;
+  border-color: #4d0e16;
+  color: #ecddba;
+  box-shadow: inset 0 0 10px #ecddba;
 }
 
 .btn-primary:hover,
@@ -70,15 +108,16 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #FFFFFF;
-  background-color: #1E2A36;
-  border-color: #161F29; 
+  color: #ecddba;
+  background-color: #a17b61;
+  border-color: #a17b61; 
 }
 
 .btn-success {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
-  color: #FFFFFF;
+  background-color: #d17a0d;
+  border-color: #d17a0d;
+  color: #ecddba;
+  box-shadow: inset 0 0 10px #ecddba;
 }
 
 .btn-success:hover,
@@ -86,15 +125,30 @@ h1, h2, h3, h4, h5, h6 {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: #FFFFFF;
-  background-color: #13987E;
-  border-color: #13987E; 
+  color: #ecddba;
+  background-color: #8c2e05;
+  border-color: #8c2e05; 
+}
+
+.btn-info {
+  color: #ecddba;
+  background-color: #8c2e05;
+  border-color: #8c2e05;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active
+ {
+  color: #ecddba;
+  background-color: #4d0e16;
+  border-color: #4d0e16;
 }
 
 .btn-default {
-  background-color: #95A5A6;
-  border-color: #95A5A6;
-  color: #FFFFFF;
+  background-color: #8c2e05;
+  border-color: #8c2e05;
+  color: #ecddba;
 }
 
 .btn-default:hover,
@@ -102,8 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-success {
-  color: #FFFFFF;
-  background-color: #7F9293;
+  color: #ecddba;
+  background-color: #8c2e05;
   border-color: #74898A;
 }
 /* End Button Customisation */
@@ -111,17 +165,22 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Jumbotron */
 .jumbotron {
   /*background-image: url(../images/anabelle_laptop_sketch.jpg);*/
-  background-image: url(../images/kitty_and_desk_small.jpg);
+  background-image: url(../images/poker_jumbotron.jpg);
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0 5px 5px #d3d3d3;
 }
 
-.jumbotron > h1, p {
-  text-shadow: 0.1em 0.1em 0.1em white;
+.jumbotron > h1 {
+  text-shadow: 0.05em 0.05em 0.05em white;
+  color: #4d0e16;
 }
 
+.jumbotron > p {
+  text-shadow: 0.02em 0.02em 0.02em white;
+  color: #ecddba;
+}
 /* End Jumbotron */
 
 /* Start footer */
@@ -139,6 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 .thumbnail img {
   transition: all 0.3s ease 0s;
   width: 100%;
+  overflow: hidden;
   box-shadow: 0 0 10px 10px #d3d3d3;
 }
 
@@ -148,37 +208,39 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2px;
 }
 
-.bg-grey {
-  background-color: #f9f9f9;
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: #ecddba;
 }
 
-.carousel {
-  margin-bottom: 20px;
-  box-shadow: 0 0 5px 5px #d3d3d3;
+a:hover, a:focus {
+    color: #ecddba;
+    text-decoration: underline;
 }
 
-.carousel-caption {
-  text-shadow: 0.1em 0.1em 0.1em black;
+.navbar .navbar-default .navbar-fixed-bottom {
+  border-color: 1px solid #8c2e05;
 }
+
+
 /* End Thumbnail customisation with effects */
 
 /* Navbar colours:;
-Navy Blue: #2C3E50;
-Navy Blue Active (darker): #1A242F;
-Turquoise : #18BC9C;
-White: #FFFFFF;
+Navy Blue: #4d0e16;
+Navy Blue Active (lighter): #8c2e05;
+Turquoise : #d17a0d;
+White: #ecddba;
 */
 
 /* button colors:
-BTN Primary: #2C3E50;
+BTN Primary: #4d0e16;
 BTN Primary Hover: #1E2A36;
 BTN Primary Hover Border: #161F29;
 
-BTN Success: #18BC9C;
-BTN Success Hover: #13987E;
-BTN Success Hover Border: #11866F;
+BTN Success: #ecddba;
+BTN Success Hover: #8c2e05;
+BTN Success Hover Border: #8c2e05;
 
 /* contact form button:; 
-BTN Default: #95A5A6;
-BTN Default Hover: #7F9293;
+BTN Default: #8c2e05;
+BTN Default Hover: #8c2e05;
 BTN Default Hover Border: #74898A;
